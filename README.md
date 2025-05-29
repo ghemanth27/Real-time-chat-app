@@ -41,7 +41,34 @@ H-CHAT-APP/
 │   └── package.json
 This is the Tree-Directory
 
+Wrap your entire tree structure in triple backticks like this:
 
+
+H-CHAT-APP/
+├── .vscode/
+├── client/
+│ ├── node_modules/
+│ ├── public/
+│ ├── src/
+│ ├── .eslintrc.cjs
+│ ├── .gitignore
+│ ├── index.html
+│ ├── package-lock.json
+│ ├── package.json
+│ ├── README.md
+│ └── vite.config.js
+├── server/
+│ ├── Controllers/
+│ ├── Models/
+│ ├── node_modules/
+│ ├── Routes/
+│ │ ├── chatRoute.js
+│ │ ├── messageRoute.js
+│ │ └── userRoute.js
+│ ├── .env
+│ ├── index.js
+│ ├── package-lock.json
+│ └── package.json
 
 This is the interface after I logged in:
 ![WhatsApp Image 2025-05-29 at 11 01 38_ba541d66](https://github.com/user-attachments/assets/06fad6f9-7b80-4376-8d6b-a06c643c2624)
